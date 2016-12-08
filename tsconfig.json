@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": true,
+    "allowUnreachableCode": false,
+    "strictNullChecks": true,
+    "outDir": "./dist",
+    "types": []
+  },
+  "exclude": [
+    "node_modules",
+    "typings"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false
+}

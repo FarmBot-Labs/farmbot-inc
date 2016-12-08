@@ -1,0 +1,23 @@
+{
+  "name": "farmbot-inc",
+  "version": "0.0.1",
+  "description": "Extra stuff that FarmBot, Inc. adds to FarmBot. Stuff like error reporting and analytics.",
+  "scripts": {
+    "build": "./build.sh"
+  },
+  "author": "FarmBot.io, Rick Carlino et. al.",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.1.4"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarmBot/farmbot-js.git"
+  },
+  "keywords": [
+    "farmbot"
+  ]
+}
