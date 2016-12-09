@@ -1,1 +1,1 @@
-declare var css: string;
+import "./roll_bar";

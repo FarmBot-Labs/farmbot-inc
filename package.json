@@ -6,7 +6,7 @@
     "build": "./build.sh"
   },
   "author": "FarmBot.io, Rick Carlino et. al.",
-  "license": "MIT",
+  "license": "none",
   "devDependencies": {
     "typescript": "^2.1.4"
   },
