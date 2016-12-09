@@ -1,6 +1,6 @@
 {
   "name": "farmbot-inc",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Extra stuff that FarmBot, Inc. adds to FarmBot. Stuff like error reporting and analytics.",
   "scripts": {
     "build": "./build.sh"
