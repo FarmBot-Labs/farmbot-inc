@@ -9,7 +9,7 @@ var _rollbarConfig = {
                 guess_uncaught_frames: true
             }
         },
-        environment: "production"
+        environment: window.location.host
     }
 };
 !function (r) { function e(t) { if (o[t])
