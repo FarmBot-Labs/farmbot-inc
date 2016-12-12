@@ -1,8 +1,17 @@
+declare var SHORT_REVISION: string;
+
 var _rollbarConfig = {
     accessToken: "7f76705012af4cb180719bbe3f73f719",
     captureUncaught: true,
     payload: {
-        environment: "test"
+        client: {
+            javascript: {
+                source_map_enabled: true,
+                code_version: SHORT_REVISION,
+                guess_uncaught_frames: true
+            }
+        },
+        environment: "production"
     }
 };
 
